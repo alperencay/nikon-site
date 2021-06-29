@@ -1,0 +1,77 @@
+.nikonphoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nikonphoto>img {
+    flex-basis: 25%;
+}
+
+.body-content {
+    background-color: #212529;
+    color: lightgray;
+}
+
+.navbar {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-header-row,
+.table-body-content>tr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.table-header-row th,
+.table-body-content>tr>* {
+    flex-basis: 50%;
+}
+
+.photo-border-nikon {
+    border: yellow inset 2px;
+    outline: 2px solid black;
+}
+
+.border-shadow {
+    background-color: #212529;
+    opacity: 0.90;
+    -webkit-box-shadow: 0 0 16px -5px hsl(69, 85%, 60%);
+    -moz-box-shadow: 0 0 16px -5px hsl(69, 85%, 60%);
+    box-shadow: 0 0 16px -5px hsl(69, 85%, 60%);
+}
+
+.btn-outline-nikon-color {
+    color: hsl(69, 85%, 60%);
+    background-color: transparent;
+    background-image: none;
+    border-color: hsl(69, 85%, 60%);
+}
+
+.btn-outline-nikon-color:hover {
+    color: #212529;
+    background-color: hsl(69, 85%, 60%);
+    border-color: hsl(69, 85%, 60%);
+}
+
+.btn-outline-warning.focus,
+.btn-outline-warning:focus {
+    box-shadow: 0 0 0 .2rem hsl(69, 89%, 41%);
+}
+
+
+/*
+.border-shadow {
+    margin: 15px 0;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+    box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+}*/
